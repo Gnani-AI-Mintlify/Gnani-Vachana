@@ -1,7 +1,4 @@
 # gnani-stt
-
-[![PyPI version](https://img.shields.io/pypi/v/gnani-stt)](https://pypi.org/project/gnani-stt/)
-[![Python](https://img.shields.io/pypi/pyversions/gnani-stt)](https://pypi.org/project/gnani-stt/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 Official Python client for the **[Vachana Speech-to-Text API](https://docs.inya.ai/vachana/introduction/introduction)** by [Gnani.ai](https://gnani.ai). Transcribe audio in 10 Indian languages with a single function call.
