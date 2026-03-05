@@ -1,0 +1,41 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "gnani-stt"
+version = "0.1.0"
+description = "Python client for Gnani's multilingual Speech-to-Text (STT) API"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.9"
+authors = [
+    { name = "Genvoice", email = "support@gnani.ai" },
+]
+keywords = ["stt", "speech-to-text", "gnani", "asr", "transcription", "multilingual", "indian-languages"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Multimedia :: Sound/Audio :: Speech",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "requests>=2.28.0",
+]
+
+[project.urls]
+Homepage = "https://gnani.ai"
+Documentation = "https://github.com/Gnani-AI-Mintlify/Gnani-Vachana"
+Repository = "https://github.com/Gnani-AI-Mintlify/Gnani-Vachana"
+Issues = "https://github.com/Gnani-AI-Mintlify/Gnani-Vachana/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["gnani_stt"]
