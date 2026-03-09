@@ -8,7 +8,7 @@ Official Python client for the **[Vachana Speech-to-Text API](https://docs.inya.
 ## Installation
 
 ```bash
-pip install gnani-stt
+pip install gnani-vachana
 ```
 
 Requires **Python 3.9+**.
