@@ -16,7 +16,7 @@ Requires **Python 3.9+**.
 ## Quick Start
 
 ```python
-from gnani_stt import GnaniSTTClient
+from gnani.stt import GnaniSTTClient
 
 client = GnaniSTTClient(
     organization_id="your-organization-id",
@@ -150,7 +150,7 @@ for code, name in GnaniSTTClient.supported_languages().items():
 ## Error Handling
 
 ```python
-from gnani_stt import AuthenticationError, InvalidAudioError, APIError
+from gnani.stt import AuthenticationError, InvalidAudioError, APIError
 
 try:
     result = client.transcribe("audio.wav", language_code="hi-IN")

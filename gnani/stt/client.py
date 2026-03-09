@@ -9,7 +9,7 @@ from typing import BinaryIO, Union
 
 import requests
 
-from gnani_stt.exceptions import (
+from gnani.stt.exceptions import (
     AuthenticationError,
     InvalidAudioError,
     APIError,
